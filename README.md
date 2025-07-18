@@ -16,8 +16,8 @@ This is a personal project based on the [Contact Page challenge from DevChalleng
 
 ## 🔗 Links
 
-- **Live Demo**: [🔗 View Live Demo](https://your-username.github.io/contact-page)
-- **Source Code**: [💻 View on GitHub](https://github.com/your-username/contact-page)
+- **Live Demo**: [🔗 View Live Demo](https://colombeagnoun.github.io/Contact-page/)
+- **Source Code**: [💻 View on GitHub](https://github.com/ColombeAGNOUN/Contact-page.git)
 
 ---
 
@@ -54,5 +54,5 @@ This is a personal project based on the [Contact Page challenge from DevChalleng
 
 You can reach me at:
 
-- GitHub: [@your-username](https://github.com/ColombeAGNOUN)
+- GitHub: [My username](https://github.com/ColombeAGNOUN)
 - Email: agnouncolombe@gmail.com
