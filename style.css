@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./resources/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: url(./resources/background.svg) no-repeat center/cover;
+  color: whitesmoke;
+  height: 200vh;
+}
+nav {
+  margin: 20px 60px;
+}
+nav img {
+  width: 80px;
+}
+header {
+  text-align: center;
+  max-width: 850px;
+  margin: 30px auto;
+  transform: scaleX(0.9);
+}
+header h1 {
+  font-size: 4em;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+header h2 {
+  font-size: 2.2em;
+  font-weight: 600;
+  padding: 20px 0;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.contact {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 20px 0;
+  background-color: rgba(250, 249, 249, 0.161);
+
+}
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+.grid {
+  color: white;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 100px 100px 240px 100px;
+  grid-template-areas:
+    "na em"
+    "si su"
+    "me me"
+    "co co";
+  gap: 15px;
+}
+.texta {
+  grid-area: me;
+  height: 100%;
+}
+.con {
+  grid-area: co;
+}
+label {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+select,
+input::placeholder,
+textarea::placeholder {
+  font-weight: 600;
+  color: #000;
+  outline: none;
+}
+
+input,
+select {
+  height: 75px;
+}
+textarea {
+  height: 200px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 5px 0;
+  outline: none;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid rgb(97, 8, 180);
+}
+textarea {
+  resize: none;
+}
+
+input[type="submit"] {
+  color: rgb(8, 8, 152);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+input[type="submit"]:hover {
+  background-color: rgb(199, 164, 232);
+  border: none;
+  transform: scale(0.9);
+}
+.author-info {
+  padding: 40px;
+  text-align: center;
+}
+.author-info a {
+  color: rgb(151, 11, 11);
+}
+@media screen and (max-width:1180px) {
+  .contact{
+    width: 80%;
+  }
+}
+@media screen and (max-width:700px) {
+  header {
+  max-width: 900px;
+  }
+header h1 {
+font-size: 3.5em;
+}
+header h2 {
+font-size: 1.4em;
+line-height: 40px;
+}
+  body{
+    height: 250vh;
+  }
+  .contact{
+    margin-bottom: 20px;
+}
+ .grid {
+  display: block;
+ }
+ .content-grid{
+  margin: 20px;
+ }
+}
