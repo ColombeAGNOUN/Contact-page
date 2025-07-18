@@ -113,12 +113,11 @@ input[type="submit"] {
   color: rgb(8, 8, 152);
   font-size: 1.2em;
   font-weight: 600;
+
 }
-input[type="submit"]:hover {
-  background-color: rgb(199, 164, 232);
-  border: none;
-  transform: scale(0.9);
-}
+
+ 
+
 .author-info {
   padding: 40px;
   text-align: center;
@@ -152,6 +151,6 @@ line-height: 40px;
   display: block;
  }
  .content-grid{
-  margin: 20px;
+  margin: 20px 0;
  }
 }
